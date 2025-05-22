@@ -1,10 +1,10 @@
 
 # MMM-TTA: Multi-Probe Benchmark for Maritime Multi-Object Tracking and Trajectory Association
 
-[![Paper]()]
-[![Dataset](https://yide-qiu.github.io/Pages_MMMTAA_Dataset/)] 
-[![Download this dataset](https://pan.quark.cn/s/42ff735ebab5)]
-[![Code](https://github.com/Yide-Qiu/MMTD/)]
+[![Paper](https://img.shields.io/badge/arXiv-Paper-31AE8A)]()
+[![Dataset](https://img.shields.io/badge/Docs-MMTDS_Dataset-0089D6)](https://yide-qiu.github.io/Pages_MMMTAA_Dataset/)
+[![Download Dataset](https://img.shields.io/badge/Download-Data-10B981)](https://pan.quark.cn/s/42ff735ebab5)
+[![Code](https://img.shields.io/badge/Download-Data-10B981)](https://github.com/Yide-Qiu/MMTD/)
 
 Official implementation of the first dynamic observation heterogeneous constellation-based maritime multi-object tracking benchmark.
 
@@ -23,11 +23,6 @@ Official implementation of the first dynamic observation heterogeneous constella
 | MMTDS-ais      | 7,970   | 10.5M mixed       | 12.71% / 99.98%         | Real-world |
 | MMTDS-[6 others]| 1,256-8,002 | 25K-505K    | 7-35% / 71-97%       | 0.92m-1km  |
 
-### Installation
-```bash
-conda create -n mmmtta python=3.9
-conda activate mmmtta
-pip install -r requirements.txt
 
 @article{anonymous2024mmmtta,
   title={MMM-TTA: Multi-Probe Benchmark for Maritime Multi-Object Tracking},
