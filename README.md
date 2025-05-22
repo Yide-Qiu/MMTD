@@ -24,9 +24,10 @@ Official implementation of the first dynamic observation heterogeneous constella
 | MMTDS-[6 others]| 1,256-8,002 | 25K-505K    | 7-35% / 71-97%       | 0.92m-1km  |
 
 ### Citation
-@article{anonymous2024mmmtta,
-  title={MMM-TTA: Multi-Probe Benchmark for Maritime Multi-Object Tracking},
-  author={Anonymous},
-  journal={NeurIPS},
-  year={2025}
+@article{anonymous2025mmmtta,<br>
+  title     = {MMM-TTA: Multi-Probe Benchmark for Maritime Multi-Object Tracking},<br>
+  author    = {Anonymous},<br>
+  journal   = {NeurIPS},<br>
+  year      = {2025},<br>
+  note      = {Under Review}<br>
 }
