@@ -4,7 +4,7 @@
 [![Paper](https://img.shields.io/badge/arXiv-Paper-31AE8A)]()
 [![Dataset](https://img.shields.io/badge/Docs-MMTDS_Dataset-0089D6)](https://yide-qiu.github.io/Pages_MMMTAA_Dataset/)
 [![Download Dataset](https://img.shields.io/badge/Download-Data-10B981)](https://pan.quark.cn/s/42ff735ebab5)
-[![Code](https://img.shields.io/badge/Download-Data-10B981)](https://github.com/Yide-Qiu/MMTD/)
+[![Code](https://img.shields.io/badge/Code-Data-10B981)](https://github.com/Yide-Qiu/MMTD/)
 
 Official implementation of the first dynamic observation heterogeneous constellation-based maritime multi-object tracking benchmark.
 
