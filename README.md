@@ -24,7 +24,7 @@ Official implementation of the first dynamic observation heterogeneous constella
 | MMTDS-[6 others]| 1,256-8,002 | 25K-505K    | 7-35% / 71-97%       | 0.92m-1km  |
 
 ### 🏆 Benchmark Performance
-| Model       | |MMTDS-sim (HOTA/DetA/AssA/IDF1)|     |       | | MMTDS-satmtb (HOTA/DetA/AssA/IDF1) |     |    | |MMTDS-ootb (HOTA/DetA/AssA/IDF1)  |     |    | | MMTDS-otb100 (HOTA/DetA/AssA/IDF1)   |    |  |
+| Model       |MMTDS-sim (HOTA)|MMTDS-sim (DetA)|MMTDS-sim (AssA)|MMTDS-sim (IDF1)| | MMTDS-satmtb (HOTA/DetA/AssA/IDF1) |     |    | |MMTDS-ootb (HOTA/DetA/AssA/IDF1)  |     |    | | MMTDS-otb100 (HOTA/DetA/AssA/IDF1)   |    |  |
 |-------------|--------|------|---------|---------------------|------|---------------|-----------------|-------|--------|-----------------|--------------|------|--------|------------------|---------|----------|
 | ByteTrack   | 17.80±0.23 | 23.72±0.19 | 13.42±0.31 | 17.65±0.27 | 25.14±0.18 | 25.99±0.22 | 24.50±0.29 | 41.55±0.33 | 33.05±0.28 | 21.55±0.24 | 50.97±0.37 | 35.07±0.26 | 41.30±0.31 | 30.24±0.23 | 57.13±0.42 | 46.50±0.39 |
 | OCSORT      | 10.80±0.18 | 20.96±0.21 | 5.60±0.12  | 10.50±0.15 | 25.56±0.27 | 29.61±0.32 | 22.24±0.25 | 42.07±0.36 | 36.75±0.29 | 25.87±0.23 | 52.73±0.41 | 35.99±0.33 | 36.30±0.28 | 31.95±0.26 | 42.29±0.34 | 36.48±0.31 |
