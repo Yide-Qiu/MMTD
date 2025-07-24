@@ -8,10 +8,6 @@
 
 Official implementation of the first dynamic observation heterogeneous constellation-based maritime multi-object tracking benchmark.
 
-## 📚 MMTDS Introduction
-
-https://yide-qiu.github.io/Pages_MMMTAA_Dataset/
-
 ## Key Contributions
 
 ### 🌟 MMM-TSS Simulation System
