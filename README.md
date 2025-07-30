@@ -12,6 +12,26 @@ Official implementation of the first dynamic observation heterogeneous constella
 
 https://yide-qiu.github.io/Pages_MMMTAA_Dataset/
 
+## 🛠️ Quick Start
+
+### Requirements:
+```
+torch==1.13.1+cu116
+torchvision==0.14.1+cu116
+torchaudio==0.13.1
+pillow
+progress
+pyyaml
+tensorboard
+scipy
+pykalman
+six
+```
+
+### Datasets Download:
+
+Please refer to https://pan.quark.cn/s/42ff735ebab5.
+
 ## Key Contributions
 
 ### 🌟 MMM-TSS Simulation System
