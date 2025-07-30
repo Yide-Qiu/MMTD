@@ -32,7 +32,21 @@ six
 
 Please refer to https://pan.quark.cn/s/42ff735ebab5.
 
-### 
+### Training and Testing Example:
+
+Please refer to ./MIMMA/run_all_dataset.sh and ./MIMMA/run_infer_module.sh
+
+```
+python train_MFTP.py --cfg tracking/configs/MSTAv2_MFTP.yaml --exp_name MSTAv2_MFTP
+python train_MSTA.py --cfg tracking/configs/MSTAv2_MSTA.yaml --exp_name MSTAv2_MSTA
+python train_MIMMA.py --cfg tracking/configs/MSTAv2_MIMMA.yaml --exp_name MSTAv2_MIMMA
+```
+
+```
+python evaluate_msta.py --ckpt ./tracking/experiments/MSTAv2_MFTP/checkpoints/best_val_checkpoint.pth.tar --metric ade_fde --modality traj+all --split test
+python evaluate_msta.py --ckpt ./tracking/experiments/MSTAv2_MSTA/checkpoints/best_val_checkpoint.pth.tar --metric ade_fde --modality traj+all --split test
+python evaluate_msta.py --ckpt ./tracking/experiments/SatSOT_MFTP/checkpoints/best_val_checkpoint.pth.tar --metric ade_fde --modality traj+all --split test
+```
 
 ## Key Contributions
 
